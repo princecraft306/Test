@@ -1,6 +1,7 @@
 import time
 import random
-
+import testCalledFunc
 while True:
-    time.sleep(1)
-    print(random.randint(1, 10))
+    time.sleep(2)
+    testCalledFunc.f() 
+    
